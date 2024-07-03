@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-cloudflared service install ${CLOUDFLARED_TOKEN} &
+/app/cloudflared service install ${CLOUDFLARED_TOKEN} &
 /usr/local/memos/memos
